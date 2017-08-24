@@ -5,6 +5,15 @@
 
 https://github.com/wuyanwen/weeklyPlus
 
+
+## Server run(先运行服务端)
+
+1. `cd server`
+2. Please make sure your Node version >= v7.6.0
+3. `npm i` or `yarn install`
+4. node app
+
+
 ## Client run 
 
 1. download dependencies `npm i` or `yarn install `
@@ -35,14 +44,6 @@ npm run e2e
 # run all tests
 npm test
 ```
-
-## Server run
-
-1. `cd server`
-2. Please make sure your Node version >= v7.6.0
-3. `npm i` or `yarn install`
-4. node app
-
 ## Contribution
 [@wuyanwen](https://github.com/wuyanwen)
 
