@@ -1,8 +1,17 @@
-# feweekly
+# Feweekly
+### 此版是旧版，修改了线上遇到的bug,是为了vue中文社区周刊系统开发的
 
-> vue中文社区周刊
+感谢vue中文社区对作者的大力支持，升级版（weeklyPlus）正在开发中，敬请期待。
 
-## Build Setup
+https://github.com/wuyanwen/weeklyPlus
+
+## Client run 
+
+1. download dependencies `npm i` or `yarn install `
+2. `npm run dev` then open your browser `http://127.0.0.1:8000`
+
+
+## Full cli
 
 ``` bash
 # install dependencies
@@ -27,11 +36,17 @@ npm run e2e
 npm test
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Server run
 
-# 后台 koa2_mongdb
-## koa2_mongdb主要提供后台接口服务，默认9090端口启动，对外暴露两个接口参考其中的路由接口注释
-# 前台默认8080端口启动
+1. `cd server`
+2. Please make sure your Node version >= v7.6.0
+3. `npm i` or `yarn install`
+4. node app
 
-# todo跨域session,cookie未完工。
+## Contribution
+[@wuyanwen](https://github.com/wuyanwen)
+
+## License
+
+MIT
 

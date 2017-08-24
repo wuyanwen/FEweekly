@@ -1,8 +1,9 @@
 'use strict'
 require('babel-register')
+const config1 = require('./config')
 const fs = require('fs')
 const path = require('path')
-const db = 'mongodb://localhost:10086/feweekly'
+const db = config1.config.db
 const mongoose = require('mongoose')
 const Koa = require('koa')
 const logger = require('koa-logger')

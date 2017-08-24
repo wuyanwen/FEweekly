@@ -1,8 +1,9 @@
 import qn from 'qn'
+const config1 = require('../../config.js')
 const client = qn.create({
-  accessKey: 'K1EzvixYD2GbvvsiX3ko6g989GuVMUZkyrCdUl5o',
-  secretKey: 'ggoFiqnCsE_Un4XpKPRqYQJyke8_Yo6kApm2bcsh',
-  bucket: 'vueclub',
-  domain: 'http://ooaa8syjw.bkt.clouddn.com',
+  accessKey: config1.config.qn_accessKey,
+  secretKey: config1.config.qn_secretKey,
+  bucket: config1.config.bucket,
+  domain: config1.config.domain
 })
 export default client
