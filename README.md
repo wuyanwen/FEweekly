@@ -14,7 +14,7 @@ https://github.com/wuyanwen/weeklyPlus
 4. node app
 
 
-## Client run 
+## Client run （后运行前台客户端）
 
 1. download dependencies `npm i` or `yarn install `
 2. `npm run dev` then open your browser `http://127.0.0.1:8000`
